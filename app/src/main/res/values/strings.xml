@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quake</string>
+
+    <!-- Default text to show with the earthquake location ("Near the Pacific-Antarctic Ridge")
+         if no specific kilometer distance from the primary location is given -->
+    <string name="near_the">Near the</string>
+
+    <!-- Text to display in the list when there are no earthquakes -->
+    <string name="no_earthquakes">No earthquakes found.</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item -->
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title -->
+    <string name="settings_title">Earthquake Settings</string>
+
+    <!-- Strings For Minimum Magnitude Preference -->
+    <string name="settings_min_magnitude_label">Minimum Magnitude</string>
+    <string name="settings_min_magnitude_key">min_magnitude</string>
+    <string name="settings_min_magnitude_default">5</string>
+
+    <!-- Strings For Order-By Preference -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key">order_by</string>
+    <string name="settings_order_by_default">@string/settings_order_by_magnitude_value</string>
+
+    <!-- Label for order-by magnitude option -->
+    <string name="settings_order_by_magnitude_label">Magnitude</string>
+    <string name="settings_order_by_magnitude_value">magnitude</string>
+
+    <!-- Label for order-by most recent option -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value">time</string>
+</resources>
